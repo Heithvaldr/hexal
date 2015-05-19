@@ -45,58 +45,56 @@ table {
 
 
 section {
-    max-width: 1200px;
     margin-top: 100px;
+}
+.hexagon-wrapper {
+    margin: 0 auto;
+    max-width: 1250px;
 }
 .hexagon {
     display: inline-block;
     position: relative;
-    width: 180px; 
-    height: 103.92px;
-    margin: 51.96px 0;
-    background-image: url(../images/monster.png);
-    background-size: auto 207.8461px;
+    width: 228px; 
+    height: 131.64px;
+    margin: 40px 9px;
+    background-size: auto 263.2717px;
     background-position: center;
 }
-
 .hexTop,.hexBottom {
     position: absolute;
     z-index: 1;
-    width: 127.28px;
-    height: 127.28px;
+    width: 161.22px;
+    height: 161.22px;
     overflow: hidden;
     -webkit-transform: scaleY(0.5774) rotate(-45deg);
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background: inherit;
-    left: 26.36px;
+    left: 33.39px;
 }
 
-/*counter transform the bg image on the caps*/
 .hexTop:after,.hexBottom:after {
     content: "";
     position: absolute;
-    width: 180.0000px;
-    height: 103.92304845413264px;
-    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-51.9615px);
-    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-51.9615px);
-    transform:          rotate(45deg) scaleY(1.7321) translateY(-51.9615px);
+    width: 228.0000px;
+    height: 131.63586137523467px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-65.8179px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-65.8179px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-65.8179px);
     -webkit-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     transform-origin: 0 0;
     background: inherit;
 }
-
 .hexTop {
-    top: -63.6396px;
+    top: -80.6102px;
 }
-
 .hexTop:after {
     background-position: center top;
 }
 
 .hexBottom {
-    bottom: -63.6396px;
+    bottom: -80.6102px;
 }
 
 .hexBottom:after {
@@ -108,8 +106,56 @@ section {
     position: absolute;
     top: 0.0000px;
     left: 0;
-    width: 180.0000px;
-    height: 103.9230px;
+    width: 228.0000px;
+    height: 131.6359px;
     z-index: 2;
     background: inherit;
+}
+.hexagon-bottom-line, .hexagon-top-line {
+    max-width: 1028px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+.hexagon-middle-line {
+    margin: 0 auto;
+}
+
+#monster1 {
+    background-image: url(../images/monster1.png);    
+}
+#monster2 {
+    background-image: url(../images/monster2.png);    
+}
+#monster3 {
+    background-image: url(../images/monster3.png);    
+}
+#monster4 {
+    background-image: url(../images/monster4.png);    
+}
+#monster5 {
+    background-image: url(../images/monster5.png);    
+}
+#monster6 {
+    background-image: url(../images/monster6.png);    
+}
+#monster7 {
+    background-image: url(../images/monster7.png);    
+}
+#monster8 {
+    background-image: url(../images/monster8.png);    
+}
+#monster9 {
+    background-image: url(../images/monster9.png);    
+}
+#monster10 {
+    background-image: url(../images/monster10.png);    
+}
+#monster11 {
+    background-image: url(../images/monster11.png);    
+}
+#monster12 {
+    background-image: url(../images/monster12.png);    
+}
+#monster13 {
+    background-image: url(../images/monster13.png);    
 }
