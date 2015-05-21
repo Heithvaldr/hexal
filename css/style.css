@@ -327,10 +327,17 @@ section {
     text-align: right;
 }
 .sl {
+    text-align: center;
+    color: #00ab94;
+    font-size: 20px;
     margin-left: -4px;
     display: inline-block;
     height: 32px;
     width: 32px;
+}
+.sl i {
+    vertical-align: middle;
+    margin-top: 20%;
 }
 .facebook {
     background-color: #a4dbd4;
