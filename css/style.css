@@ -1,3 +1,8 @@
+@font-face {
+    font-family: MavenPro-Regular; 
+    src: url(../fonts/MavenPro-Regular.ttf); 
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -263,9 +268,14 @@ section {
 }
 
 /* about */
-.about {
-    padding: 15px 100px;
+.about-wrapper {
+    padding: 15px 0;
     background-color: #2eb398;
+}
+.about {
+    max-width: 1034px;
+   
+    margin: 0 auto;
 }
 .about .line {
     height: 400px;
@@ -273,13 +283,70 @@ section {
     background-color: #24a289;
     display: inline-block;
     vertical-align: middle;
-    margin: 0 25px;
+}
+.right-l {
+    margin-left: 19px;
+}
+.left-l {
+    margin-right: 10px;
+}
+.description {
+    vertical-align: middle;
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
 }
 #author {
     vertical-align: middle;
     display: inline-block;
     background-image: url(../images/author.png);
 }
-
-
-
+.text {
+    position: relative;
+    text-align: justify;
+    line-height: 25px;
+    max-width: 720px;
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+}
+.name {
+    font-family: MavenPro-Regular;
+    font-size: 37px;
+    color: white;
+    padding-bottom: 8px;
+}
+.profession {
+    font-family: MavenPro-Regular;
+    font-size: 22px;
+    color: #218470;
+    padding-bottom: 22px;
+}
+.social-links {
+    margin-top: 50px;
+    text-align: right;
+}
+.sl {
+    margin-left: -4px;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+.facebook {
+    background-color: #a4dbd4;
+}
+.twitter {
+    background-color: #6ccbbe;
+}
+.gplus {
+    background-color: #7fd0c5;
+}
+.pinterest {
+    background-color: #abddd7;
+}
+.linkedin {
+    background-color: #acddd7;
+}
+.dribble {
+    background-color: #6dcbbe;
+}
