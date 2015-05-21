@@ -264,10 +264,20 @@ section {
 
 /* about */
 .about {
-    padding: 111px 0 111px 124px;
+    padding: 15px 100px;
     background-color: #2eb398;
 }
+.about .line {
+    height: 400px;
+    width: 2px;
+    background-color: #24a289;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 25px;
+}
 #author {
+    vertical-align: middle;
+    display: inline-block;
     background-image: url(../images/author.png);
 }
 
